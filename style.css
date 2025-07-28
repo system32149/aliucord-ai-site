@@ -1,116 +1,115 @@
 /* Base styles */
 body {
-	  margin: 0;
-	    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-	      background: #f1fff1;
-	        color: #333;
-	}
+    margin: 0;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    background: #f1fff1;
+    color: #333;
+}
 
-	header {
-		  background-color: #2e7d32;
-		    padding: 1em 2em;
-		      position: sticky;
-		        top: 0;
-			  z-index: 1000;
-		  }
+header {
+    background-color: #2e7d32;
+    padding: 1em 2em;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
 
-		  .navbar {
-			    display: flex;
-			      justify-content: space-between;
-			        align-items: center;
-				  color: white;
-			  }
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+}
 
-			  .navbar .logo {
-				    font-size: 1.5em;
-				      font-weight: bold;
-			      }
+.navbar .logo {
+    font-size: 1.5em;
+    font-weight: bold;
+}
 
-			      .nav-links {
-				        list-style: none;
-					  display: flex;
-					    gap: 1.5em;
-				    }
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 1.5em;
+}
 
-				    .nav-links a {
-					      color: white;
-					        text-decoration: none;
-						  font-weight: 500;
-					  }
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+}
 
-					  .nav-links a:hover {
-						    text-decoration: underline;
-					    }
+.nav-links a:hover {
+    text-decoration: underline;
+}
 
-					    /* Hero section */
-					    .hero {
-						      background: linear-gradient(to right, #66bb6a, #43a047);
-						        color: white;
-							  padding: 4em 2em;
-							    text-align: center;
-						    }
+/* Hero section */
+.hero {
+    background: linear-gradient(to right, #66bb6a, #43a047);
+    color: white;
+    padding: 4em 2em;
+    text-align: center;
+}
 
-						    .hero h1 {
-							      font-size: 2.5em;
-							        margin-bottom: 0.5em;
-							}
+.hero h1 {
+    font-size: 2.5em;
+    margin-bottom: 0.5em;
+}
 
-							.cta-button {
-								  background-color: white;
-								    color: #2e7d32;
-								      padding: 0.75em 1.5em;
-								        border: none;
-									  border-radius: 5px;
-									    text-decoration: none;
-									      font-weight: bold;
-									        display: inline-block;
-										  margin-top: 1em;
-									  }
+.cta-button {
+    background-color: white;
+    color: #2e7d32;
+    padding: 0.75em 1.5em;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    display: inline-block;
+    margin-top: 1em;
+}
 
-									  .cta-button:hover {
-										    background-color: #c8e6c9;
-									    }
+.cta-button:hover {
+    background-color: #c8e6c9;
+}
 
-									    /* Sections */
-									    section {
-										      padding: 3em 2em;
-										        text-align: center;
-										}
+/* Sections */
+section {
+    padding: 3em 2em;
+    text-align: center;
+}
 
-										.features {
-											  background-color: #e8f5e9;
-										  }
+.features {
+    background-color: #e8f5e9;
+}
 
-										  .feature-grid {
-											    display: flex;
-											      flex-wrap: wrap;
-											        justify-content: center;
-												  gap: 2em;
-												    margin-top: 2em;
-											    }
+.feature-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2em;
+    margin-top: 2em;
+}
 
-											    .feature {
-												      max-width: 300px;
-											      }
+.feature {
+    max-width: 300px;
+}
 
-											      /* Footer */
-											      footer {
-												        text-align: center;
-													  padding: 1.5em;
-													    background-color: #1b5e20;
-													      color: white;
-												      }
+/* Footer */
+footer {
+    text-align: center;
+    padding: 1.5em;
+    background-color: #1b5e20;
+    color: white;
+}
 
-												      /* Responsive */
-												      @media (max-width: 768px) {
-													        .feature-grid {
-															    flex-direction: column;
-															        align-items: center;
-																  }
+/* Responsive */
+@media (max-width: 768px) {
+    .feature-grid {
+        flex-direction: column;
+        align-items: center;
+    }
 
-																    .nav-links {
-																	        flex-direction: column;
-																		    gap: 0.5em;
-																		      }
-																	      }
-
+    .nav-links {
+        flex-direction: column;
+        gap: 0.5em;
+    }
+}
